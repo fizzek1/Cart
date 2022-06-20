@@ -1,0 +1,143 @@
+:root {
+    --button-color: #786ef9;
+    --offer-color: #ffdada;
+    --body-color: #c6e6ff;
+}
+
+#index-body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: var(--body-color);
+}
+
+#first-offer,
+#second-offer {
+    height: 65px;
+    margin-left: 22%;
+    width: 50%;
+    margin-top: 3%;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    background-color: var(--offer-color);
+}
+
+#first-offer-h1,
+#second-offer-h2 {
+    margin-right: 14%;
+    font-size: 22px;
+}
+
+
+#add-item-button-first-offer,
+#add-item-button-second-offer {
+    width: 150px;
+    height: 45px;
+    margin-left: 10%;
+    border-radius: 10px;
+    background-color: var(--button-color);
+    font-size: 15px;
+}
+
+#add-item-button:hover {
+    background-color: rgb(78, 76, 76);
+    color: white;
+}
+
+#continue-button:hover {
+    background-color: rgb(78, 76, 76);
+    color: white;
+}
+
+#payment-button:hover {
+    background-color: rgb(78, 76, 76);
+    color: white;
+}
+
+#payment-button {
+    text-decoration: none;
+}
+
+#cart {
+    background-color: rgb(68, 67, 67);
+    display: flex;
+    justify-content: center;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160%;
+    height: 200px;
+    margin-left: -25%;
+    border: 2px solid black;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+
+#cart button {
+    border-radius: 10px;
+}
+
+#cart li {
+    margin-left: -230px;
+}
+
+#cart ul {
+    margin-top: 8px;
+}
+
+#cart h2 {
+    font-size: 25px;
+    margin-bottom: 170px;
+}
+
+
+/* payment.html style below this line*/
+
+.payment-body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(159, 159, 223, 0.521);
+}
+
+.blik {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 43%;
+    width: 320px;
+    height: 130px;
+    border: 3px solid black;
+    background-color: rgba(233, 140, 140, 0.76);
+}
+
+.paypal {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    width: 320px;
+    height: 130px;
+    border: 3px solid black;
+    background-color: rgb(172, 172, 248);
+}
+
+.psc {
+    font-size: 21px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    width: 320px;
+    height: 130px;
+    border: 3px solid black;
+    background-color: rgb(215, 241, 233);
+}
+
